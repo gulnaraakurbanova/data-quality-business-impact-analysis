@@ -2,7 +2,15 @@
 
 A data engineering portfolio project covering large-scale data profiling, cleaning, enrichment validation, and business impact reporting across multiple marketing databases.
 
-> **Note on data:** Table names, column names, and data samples in this repository have been anonymized/generalized. The underlying analysis, methodology, queries, and findings are real and were performed on production-scale datasets as part of a data engineering role. No proprietary business data, credentials, or company-identifying information is included.
+## Highlights
+
+- **2.7B+ records** profiled across 14 datasets in ClickHouse Cloud and PostgreSQL
+- **51.4M duplicate identity records** identified, with quantified campaign cost impact
+- **59.5M placeholder phone values** removed from an enrichment reference table, eliminating false-positive JOIN matches
+- **330M-row table migrated** between environments with zero data loss using hash-based batch partitioning
+- **50-state enrichment validation framework** built on a hashed JOIN key, with match rates ranging 0.03%-58%
+
+> **A note on anonymization:** All business names, table names, column names, identifiers, and data samples in this repository have been anonymized or generalized. The metrics, methodologies, queries, and findings reflect real analyses performed on production-scale datasets as part of a data engineering role — no proprietary business data, credentials, or company-identifying information is included.
 
 ---
 
@@ -18,6 +26,7 @@ This project involved profiling, cleaning, and assessing the business impact of 
 - Built and validated a cross-table enrichment JOIN framework across all 50 US states
 - Migrated a 330M-row table using hash-based batch migration to avoid memory overflow
 - Produced a business impact assessment and engineering remediation roadmap
+
 
 ---
 
@@ -96,4 +105,8 @@ See [`lessons_learned.md`](lessons_learned.md) for the full technical write-up.
 
 ## Contact
 
-Gulnara — Data Analyst/Engineer
+**Gulnara** — Data Analyst / Data Engineer
+
+- GitHub: [github.com/gulnaraakurbanova](https://github.com/gulnaraakurbanova)
+- LinkedIn: [linkedin.com/in/gulnara-kurbanova-921a251a1](https://www.linkedin.com/in/gulnara-kurbanova-921a251a1)
+- Email: gulnaraakurbanova@gmail.com
